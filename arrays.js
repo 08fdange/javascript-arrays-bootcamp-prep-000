@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element) {
 //console.log(chocolateBars)
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return[array.unshift(element)]
+  [array.unshift(element)]
   
 }
 
