@@ -9,12 +9,12 @@ function addElementToBeginningOfArray(array, element) {
 //console.log(chocolateBars)
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return[array.unshift('element')]
+  return[array.unshift(element)]
   
 }
 
 function addElementToEndOfArray(array, element) {
-  return[...array, element]
+  return[...array, element];
 }
 //function destructivelyAddElementToEndOfArray()
 
